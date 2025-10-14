@@ -34,3 +34,4 @@ Atividade para Disciplina de IoT (Terça-Feira).
 
 # Questões
 - Vai ser permitido consulta no Exame?
+- É possível fazer requisição a uma API no Localhost pelo Arduino, ou vai precisar hospedar o site?
