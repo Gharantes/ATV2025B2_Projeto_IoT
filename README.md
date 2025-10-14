@@ -7,9 +7,8 @@ Atividade para Disciplina de IoT (Terça-Feira).
 
 ## Funcionalidades
 - Pelo Arduino:
-	- Vai ler informação de Sensor **"X"** (qualquer uma).
-		- Temperatura seria o melhor eu acho.
-	- Enviar os dados por uma API para o backend, junto com o tempo atual.
+	- Arduino vai ler informação de **Sensor "DH11" (Umidade e Temperatura)**.
+	- Feito isso, vai enviar os dados por uma API para o backend, junto com o tempo atual.
 - Pelo Computador:
     - Backend vai ter 2 Endpoints.
         - Um para receber as informações do Arduino. Por aqui, vai gravar elas em um banco.
