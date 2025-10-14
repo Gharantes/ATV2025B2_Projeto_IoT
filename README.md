@@ -15,6 +15,10 @@ Atividade para Disciplina de IoT (Terça-Feira).
         - Um para consultar essas informações.
 	- O frontend vai fazer uma requisição ao backend cada 5/10 segundos, buscando os dados do banco.
     - A intenção é montar um gráfico que mostra a diferença entre valores do sensor ao passar do tempo. 
+        - Bibliotecas Relevantes:
+            - https://apexcharts.com/angular-chart-demos/
+            - https://primeng.org/chart
+            - https://www.google.com/search?q=angular+line+chart
 ## Componentes
 - Arduino
 - ProtoBoard
