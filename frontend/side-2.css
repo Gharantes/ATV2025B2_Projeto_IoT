@@ -1,0 +1,24 @@
+#page-container #side-2 {
+    width: 100vw;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    row-gap: 10px;
+}
+#page-container #side-2 #chart-container {
+    display: flex;
+    justify-content: center;
+}
+#page-container #side-2 #chart-container #chart-img {
+    width: 100%;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#timer-label {
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.15rem;
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Chamando os css externos -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="side-1.css">
+    <link rel="stylesheet" href="side-2.css">
+</head>
+<body>
+    <div id="page-title">Estação Meteorológica</div>
+
+    <div id="page-container">
+        <div id="side-1">
+            <!-- Através desse formulário, o usuário pode enviar dados e testar 
+             o Backend sem precisar ligar o Arduino. -->
+            <div id="form-title">Enviar dados ficticíos:</div>
+            <form id="form">
+                <div class="form-field">
+                    <label for="temperatura-input">Temperatura:</label>
+                    <input id="temperatura-input" type="text" />
+                </div>
+
+                <div class="form-field">
+                    <label for="humidade-input">Humidade:</label>
+                    <input id="humidade-input" type="text" />
+                </div>
+
+                <div id="side-1-button-line">
+                    <button id="clear-btn" type="button">Limpar Dados</button>
+                    <button id="submit-btn" type="submit">Enviar</button>
+                </div>
+            </form>            
+        </div>
+        <div id="side-2">
+            <div id="chart-container">
+                <img 
+                    id="chart-img" 
+                    src="http://127.0.0.1:8000/chart" 
+                    alt="Nenhum dado encontrado. A aplicação necessita de pelo menos 1 entrada para gerar o gráfico.">
+            </div>
+        </div>
+
+    </div>
+</body>
+<!-- Chamando scripts externos.-->
+<script src="script-const.js"></script>
+<script src="script-update.js"></script>
+<script src="script-submit.js"></script>
+<script src="script-clear.js"></script>
+</html>
